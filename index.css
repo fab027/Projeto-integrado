@@ -1,0 +1,229 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#navbar {
+    width: 100%;
+    background: #14488C;
+    color: #eee;
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container {
+    list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+    
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li {
+    padding: 40px;
+}
+
+#MENU {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #14488C;
+    background-color: #ffffff;
+}
+
+img{
+    width: 80%;
+    right: 1180px;
+}
+
+#MENU-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+#MENU-container h2 {
+    font-size: 3.5rem;
+}
+
+#MENU-container p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+#PERFIL {
+    height: 100vh;
+    background:#ffffff;
+    color: #111111;
+    padding: 50px;
+    text-align: center;
+}
+
+#PERFIL-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#img-perfil {
+    width: 350px;
+}
+
+#conquistas {
+ text-align: left;
+}
+.contatin{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#RANKINGS {
+    height: 80vh;
+    background: #ffffff;
+    color: #212121;
+    padding: 50px;
+}
+
+#RANKINGS-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.headline {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#RANKINGS-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items {
+    width: 650px;
+}
+
+#items .item {
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.TRILHA_DE_CURSOS {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    color: #000;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#TRILHA_DE_CURSOS {
+    height: 80vh;
+    background: #ffffff;
+    color: #202020;
+    padding: 50px;
+}
+
+#TRILHA_DE_CURSOS-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    column-gap: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TRILHA_DE_CURSOS.TRILHA_DE_CURSOS-image {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#earning {
+    width: 20px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #14488C;
+    color: #ffffff; 
+
+    text-align: center;     
+  }
+
+  .cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
